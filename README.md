@@ -1,50 +1,72 @@
-# React + TypeScript + Vite
+# 高専ビジネスコンテスト in 鈴鹿　
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+* このリポジトリは上記の通り、コンテストように作ったデモアプリのリポジトリです。
+* 下記の内容の発表・提案を行いました。
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 　提案内容
+* 「会話で寄り添い、情報でつなぐ」介護支援用ぬいぐるみ
 
-## Expanding the ESLint configuration
+### 競合
+* Chapit
+  * 多機能
+    * 生活リズムサポート
+    * 安否確認
+    * 救助要請
+    * 活動量の見守り
+    * レクリエーション機能
+  * コミュニケーション可能
+  * 介護支援機能　なし
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## メモ
+* 孫の声有料オプション
 
-- Configure the top-level `parserOptions` property like this:
+### 質問
+* アーリーアダプターは？
+  * 
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+* 宣伝の方法は？
+  * SNS
+  * ぬいぐるみを扱っている会社に宣伝してもらう?
+  * 高齢者が多い地域にピンポイントに広告を出す?
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+* 価格は？
+  * 初期費用、ぬいぐるの導入代 1万 × 導入台数
+  * 運用費 3万 [円/月]
+  * 修理等 100円 × 導入台数 [円/月]
+  * 要検討 !
+    * 競合の価格設定に合わせる
+* プライバシーの問題は？
+  * 監視になってはいけない
+  * 録音されている状況がわかるようにするなどして抵抗感を削減する
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+* 介護施設側からの需要はあるか？
+  * 市場規模は?
+  * 費用対効果
+    * 人件費を減らせる(?)
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+* 人がやるのとはどう違うか?
+  * 心理的なハードル
+
+* 圧倒的な強み・他社に取られないような収益構造
+  * アイデアだけ持ってかれないように
+
+* ぬいぐるみを管理するハードル
+  * 充電の手間
+  * コンセントに繋いで使えた方が良い
+
+* ハードウェア的なハードル
+  * 音声本当に聞こえるの？
+  * 本当に音声認識できんの？
+  * 意外と技術的なハードルがあり、競合がすぐには参入できないのでは?
+
+* どれくらいの規模感の施設か？
+  * デイサービスとして利用するのが大半という施設もある?
+
+
+* 共有財産としておいておくのはどうか?
+* 個人だとラベリングが大変なのでは？
+
+#### 作った方が良いもの
+* 導入施設数/導入台数と収益の関係がわかるグラフ
+* どれくらいの成長率がありそうか?
