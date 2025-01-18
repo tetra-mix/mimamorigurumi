@@ -6,12 +6,12 @@ import { Header } from './contents/Header.tsx'
 
 
 export const App = () => {
-  const { colorMode, changeColorMode } = useColorMode()
+  const { changeColorMode } = useColorMode()
 
   useEffect(() => {
     changeColorMode("light");
   }, []);
-  
+
   return (
     <>
       <Header />

@@ -1,4 +1,4 @@
-import { Container, Box, Button, Heading, Text, Flex } from '@yamada-ui/react';
+import { Container, Flex } from '@yamada-ui/react';
 
 import { SystemChat } from '../atom/SystemChat.tsx';
 import { UserChat } from '../atom/UserChat.tsx';
