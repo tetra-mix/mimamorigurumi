@@ -1,5 +1,5 @@
 import { db } from "../firebase/firebase";
-import { doc, getDoc, collection } from "firebase/firestore";
+import { doc, getDoc } from "firebase/firestore";
 import { useState, useEffect } from 'react';
 import { SystemChat } from "./SystemChat";
 import { UserChat } from "./UserChat";
