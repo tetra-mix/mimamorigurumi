@@ -8,7 +8,7 @@ export type ChatProps = {
 
 export const SystemChat = (props: ChatProps) => {
     return (
-        <Box w="100%">
+        <Box w="100%" p="4">
             <Flex gap="2" justifyContent="center">
                 <Box>
                     <Avatar

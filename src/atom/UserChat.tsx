@@ -7,7 +7,7 @@ export type ChatProps = {
 
 export const UserChat = (props: ChatProps) => {
     return (
-        <Box w="100%">
+        <Box w="100%" p="4">
             <Flex gap="2" justifyContent="center">
                 <Card w="70%">
                     <CardBody>

@@ -1,6 +1,8 @@
 import { Container,Center, Icon, Flex, Button, Image, Drawer, DrawerHeader, DrawerFooter, DrawerBody, useDisclosure } from '@yamada-ui/react';
 import { IoMdMenu } from "react-icons/io";
+import { History }  from '../atom/History.tsx';
 import Logo from '../assets/logo.png';
+
 
 export const Header = () => {
     const { isOpen, onOpen, onClose } = useDisclosure();
@@ -20,7 +22,7 @@ export const Header = () => {
             <Drawer isOpen={isOpen} onClose={onClose} placement="left">
                 <DrawerHeader>会話履歴</DrawerHeader>
                 <DrawerBody>
-
+                    <History />
                 </DrawerBody>
                 <DrawerFooter>
                     <Button variant="ghost" onClick={onClose}>
