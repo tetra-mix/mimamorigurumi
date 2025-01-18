@@ -1,5 +1,5 @@
 import { Box, Text, Card, CardBody, Flex, Avatar } from "@yamada-ui/react";
-import Icon from '../Assets/system_icon.png';
+import Icon from '../assets/system_icon.png';
 
 export type ChatProps = {
     name: string;
